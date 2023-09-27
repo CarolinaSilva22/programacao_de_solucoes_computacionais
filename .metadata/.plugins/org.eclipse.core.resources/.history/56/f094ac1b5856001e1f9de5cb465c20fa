@@ -1,0 +1,28 @@
+package condicional;
+
+import java.util.Scanner;
+
+public class Atividade9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Digite um planeta:");
+		int planeta = input.nextInt();
+		
+		System.out.println("Digite uma velocidade(v0):");
+		int velocidade = input.nextInt();
+		
+		System.out.println("Digite um instante(t):");
+		int instante = input.nextInt();
+		int x = 0;
+		int v = x + velocidade + instante;
+		if(planeta==1) {
+			x = 3;
+			System.out.println(v);
+		
+		}
+	}
+
+}

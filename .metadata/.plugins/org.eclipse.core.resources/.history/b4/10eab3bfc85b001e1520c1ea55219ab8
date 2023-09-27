@@ -1,0 +1,24 @@
+package banco;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		ContaCorrente contaCorrente;
+		contaCorrente = new ContaCorrente();
+		Scanner input = new Scanner(System.in);
+
+		System.out.print("informe o número e a agência: ");
+		contaCorrente.iniciarContaCorrente(input.nextInt(), input.nextInt());
+		
+		System.out.print("Valor do deposito: ");
+		contaCorrente.depositar(input.nextDouble());
+		
+		System.out.println("Conta: " + contaCorrente.exibeConta() + "- Agencia:"+ contaCorrente.exibeAgencia());
+		
+		System.out.print("Valor do saque: ");
+		contaCorrente.sacar(input.nextDouble());
+		
+		System.out.println("Saldo: " + contaCorrente.consultarSaldo());
+	}
+}

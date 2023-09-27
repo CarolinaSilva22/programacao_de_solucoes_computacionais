@@ -1,0 +1,15 @@
+package condicional;
+
+import java.util.Scanner;
+
+public class Atividade5 {
+public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+	
+	System.out.println("Digite um valor: ");
+	double valor = input.nextDouble();
+	
+	double teste = 2*valor + 2;
+	
+}
+}

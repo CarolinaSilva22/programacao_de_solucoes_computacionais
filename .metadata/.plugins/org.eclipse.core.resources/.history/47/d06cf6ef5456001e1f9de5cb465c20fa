@@ -1,0 +1,35 @@
+package condicional;
+
+import java.util.Scanner;
+
+public class Atividade8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("Digite o valor do codigo do produto:");
+		int cod = input.nextInt();
+		
+		switch(cod) {
+		case 1: 
+			System.out.println("O produto do código 1 é o sapato. Preço: R$ 99,99");
+			;break;
+		case 2:
+			System.out.println("O produto do codigo 2 é o bolsa, custa 103,89");
+			;break;
+		case 3:
+			System.out.println("O produto do codigo 3 é o camisa, custa 49,98");
+			;break;
+		case 4:
+			System.out.println("O produto do codigo 4 é o calça, custa 89,72");
+			;break;
+		case 5:
+			System.out.println("O produto do codigo 5 é o blusa, custa 97,35");
+			;break;
+		
+		}
+		
+	}
+
+}

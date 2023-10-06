@@ -25,8 +25,3 @@ public class Atividade6 {
 
 }
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 2c260f1e6545e2edb3c5fea68c5cb94659c83c7f

@@ -6,10 +6,7 @@ public class Atividade13 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-<<<<<<< HEAD
 
-=======
->>>>>>> 2c260f1e6545e2edb3c5fea68c5cb94659c83c7f
 		Scanner input = new Scanner(System.in);
 
 		System.out.println("Digite qual o tipo de apartamento hospedado(1-Apto Simples/2-Apto Duplo):");
@@ -49,11 +46,7 @@ public class Atividade13 {
 			
 		}
 		
-<<<<<<< HEAD
-=======
-		
-		
->>>>>>> 2c260f1e6545e2edb3c5fea68c5cb94659c83c7f
+
 	}
 
 }

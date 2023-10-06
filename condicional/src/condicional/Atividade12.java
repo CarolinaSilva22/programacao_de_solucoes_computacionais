@@ -1,20 +1,12 @@
 package condicional;
 
-<<<<<<< HEAD
-
-import java.util.Scanner;
-=======
 import java.util.Scanner;
 
->>>>>>> 2c260f1e6545e2edb3c5fea68c5cb94659c83c7f
 public class Atividade12 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-<<<<<<< HEAD
 
-=======
->>>>>>> 2c260f1e6545e2edb3c5fea68c5cb94659c83c7f
 		 Scanner input = new Scanner(System.in);
 
 		 System.out.println("Digite seu sexo(1-Masculino/2-Feminino):");
@@ -53,13 +45,9 @@ public class Atividade12 {
 		   	 else if(idade>40) {
             	System.out.println("Mensalidade a ser paga:R$ 80");
              }
-		}
 		
-}
-<<<<<<< HEAD
+		}
+	}}
+		
 
-	}
 
-=======
-}
->>>>>>> 2c260f1e6545e2edb3c5fea68c5cb94659c83c7f

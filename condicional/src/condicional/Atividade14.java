@@ -6,10 +6,6 @@ public class Atividade14 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-<<<<<<< HEAD
-
-=======
->>>>>>> 2c260f1e6545e2edb3c5fea68c5cb94659c83c7f
 		Scanner input = new Scanner(System.in);
 
 		System.out.println("Digite um comando do git(clone/fetch/pull):");

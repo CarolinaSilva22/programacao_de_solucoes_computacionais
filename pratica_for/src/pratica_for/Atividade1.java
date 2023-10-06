@@ -1,5 +1,5 @@
+
 package pratica_for;
-import java.util.Scanner;
 
 public class Atividade1 {
 	public static void main(String[] args) {
@@ -10,8 +10,7 @@ public class Atividade1 {
 		 for (int i = inicio; i <= fim; i++) {
 			   soma += i;
 		 }
-
-		System.out.println("Soma dos números de 7 a 20 é " + soma);
+		 System.out.println("Soma dos números de 7 a 20 é " + soma);
 		}
 }
 

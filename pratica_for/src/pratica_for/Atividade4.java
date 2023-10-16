@@ -16,7 +16,7 @@ public class Atividade4{
 
             if (idade < 0) {
                 break;
-            }
+            } //usa um loop for infinito e sai do loop quando uma idade negativa é inserida usando a instrução break
 
             totalIdades += idade;
             contador++;

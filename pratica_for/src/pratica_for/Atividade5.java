@@ -4,34 +4,27 @@ import java.util.Scanner;
 public class Atividade5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int maior = Integer.MIN_VALUE; 
+        int menor = Integer.MAX_VALUE; 
+        System.out.println("Digite os números (digite 0 para terminar):");
 
-        int max = Integer.MIN_VALUE;
-        int min = Integer.MAX_VALUE;
-
-        while (true) {
-            System.out.print("Digite um número (ou digite 0 para parar): ");
-            int numero = scanner.nextInt();
-
-            if (numero == 0) {
-                break; 
+        for (int numero; (numero = scanner.nextInt()) != 0;) {
+            if (numero > maior) {
+                maior = numero;
             }
 
-            if (numero > max) {
-            	max = numero;
+            if (numero < menor) {
+                menor = numero;
             }
+        }
 
-            if (numero < min) {
-                min = numero;
-            }
+        if (maior == Integer.MIN_VALUE && menor == Integer.MAX_VALUE) {
+            System.out.println("Nenhum número foi informado.");
+        } else {
+            System.out.println("Maior número: " + maior);
+            System.out.println("Menor número: " + menor);
         }
 
         scanner.close();
-
-        if (max != Integer.MIN_VALUE && min != Integer.MAX_VALUE) {
-            System.out.println("O maior número é: " + max);
-            System.out.println("O menor número é: " + min);
-        } else {
-            System.out.println("Nenhum número foi informado!!");
-        }
     }
 }
